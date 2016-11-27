@@ -23,13 +23,13 @@ fBodyGyroJerkMag
 
 
 The following steps are performed for creating the tidy data:  
-1.downloading data file to workspace directory.  
-2.unzip dataset to workspace directory.  
-3.reading training data and test data and merging them into one data set.  
-4.reading the columns name from features.txt file.  
-5.setting the column names on the train and test data.  
+1. Downloading data file to workspace directory.  
+2. Unzip dataset to workspace directory.  
+3. Reading training data and test data and merging them into one data set.  
+4. Reading the columns name from features.txt file.  
+5. Setting the column names on the train and test data.  
 6. Selecting the measurements on the mean and standard deviation for each measurement.  
-7.Reading names of activity from file and replacing each activity id with its name.  
+7. Reading names of activity from file and replacing each activity id with its name.  
 8. Renaming column names with descriptive names.  
 9. Creating tidy data by grouping with Subject Name and Activity and getting mean of each variable for that grouping.  
 10. Writing tidy data to file.  
