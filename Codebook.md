@@ -21,7 +21,7 @@ fBodyAccJerkMag
 fBodyGyroMag  
 fBodyGyroJerkMag  
 
-
+## Steps  
 The following steps are performed for creating the tidy data:  
 1. Downloading data file to workspace directory.  
 2. Unzip dataset to workspace directory.  
@@ -34,8 +34,8 @@ The following steps are performed for creating the tidy data:
 9. Creating tidy data by grouping with Subject Name and Activity and getting mean of each variable for that grouping.  
 10. Writing tidy data to file.  
 
-
-Thus the final tidy data contains 88 variables for the average of each mean and standard deiviation of measuremants , each row has the subject id and the activity id with the values for the average measurement. Following sit the final list of variables of the tidy data all averaged.  
+## Variables
+The final tidy data contains 88 variables for the average of each mean and standard deviation of measurements, each row has the subject id and the activity id with the values for the average measurement. Following is the final list of variables of the tidy data all averaged.  
 SubjectID  
 Activity  
 tBodyAccelerometer.mean...X  
